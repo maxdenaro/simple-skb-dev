@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoRegular.woff2'),
+    url('../fonts/RobotoRegular.woff');
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoMedium.woff2'),
+    url('../fonts/RobotoMedium.woff');
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerBold.woff2'),
+    url('../fonts/MullerBold.woff');
+  font-display: swap;
+  font-weight: 700;
+}
+
+:root {
+
+}
+
+body {
+  min-width: 320px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-reset {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* .container {
+  margin: 0 auto;
+  padding: 0 12px;
+  max-width: 1304px;
+} */
