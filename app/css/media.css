@@ -1,0 +1,115 @@
+@media (max-width: 992px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 19px;
+  }
+
+  .header__content {
+    justify-content: space-between;
+  }
+
+  .header__btns {
+    order: 2;
+  }
+
+  .header__nav {
+    order: 3;
+    margin-top: 29px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .nav__list {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 50px;
+    line-height: 100%;
+  }
+
+  .hero__content {
+    padding-top: 5px;
+  }
+
+  .result {
+    padding: 60px 0;
+  }
+
+  .result__item {
+    padding-top: 138px;
+    padding-left: 0;
+    background-position: left 19px;
+  }
+
+  .result__top {
+    margin-bottom: 3px;
+  }
+
+  .result__content {
+    padding-top: 0;
+  }
+
+  .second-title {
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .result__subtitle {
+    margin-bottom: 21px;
+  }
+
+  .result__subdescr .descr:not(:last-child) {
+    margin-bottom: 13px;
+  }
+
+  .products {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+
+  .products__item {
+    padding-bottom: 60px;
+  }
+
+  .product-item__image {
+    margin-bottom: 17px;
+  }
+
+  .product-item__descr {
+    max-width: 95%;
+  }
+
+  .partners {
+    padding: 60px 0;
+  }
+
+  .partners__item {
+    height: 80px;
+  }
+
+  .partners__item img {
+    max-width: 84%;
+  }
+
+  .sketchbook {
+    padding-top: 34px;
+    padding-bottom: 36px;
+    background-image: url("../img/sketchbook-tablet.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+
+  .sketchbook__title {
+    margin-bottom: 22px;
+  }
+
+  .sketchbook__image {
+    display: none;
+  }
+}
